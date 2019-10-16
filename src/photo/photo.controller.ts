@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Param, InternalServerErrorException, Put, Patch, Delete } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, InternalServerErrorException, Put, Delete } from '@nestjs/common';
 import { PhotoService } from './photo.service';
 import { Photo } from './photo.entity';
 import { InsertResult, UpdateResult } from 'typeorm';
